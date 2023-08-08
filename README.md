@@ -1,22 +1,21 @@
 <p align="center">
-<b><a href="#Summary">Summary</a></b>
+<b><a href="#summary">Summary</a></b>
 |
-<b><a href="#Project-Documentation">Project Documentation</a></b>
+<b><a href="#project-documentation">Project Documentation</a></b>
 |
-<b><a href="#Data-Sources-and-Methodology">Data Sources and Methodology</a></b>
+<b><a href="#data-Sources-and-methodology">Data Sources and Methodology</a></b>
 |
-<b><a href="#Next-Steps">Next Steps</a></b>
+<b><a href="#next-steps">Next Steps</a></b>
 |
-<b><a href="#Engagement">Engagement</a></b>
+<b><a href="#engagement">Engagement</a></b>
 |    
-<b><a href="#References">References</a></b> 
+<b><a href="#references">References</a></b> 
 </p>
 
 # NECTA PSLE Dashboard
 This repository contains the notebooks and data used by the Data Safari team to create the dashboard publicly accessible at https://bit.ly/psle2022mvp.
 
 ## Summary
-----------
 
 ### Inspiration
 Every year in Tanzania, the publication of Primary School Leaving Examination (PSLE) results is a national data moment for students, parents, teachers, schools, and the government, traditionally determining placement of standard seven leavers into secondary school. Student results are found on per-school web pages but **open access** to wider analysis such as urban vs. rural or regional comparisons, beyond the now de-prioritized rankings, is still needed. Further **linking results to resources data**, and geographical features provides an untapped opportunity to **make data useable** to inform policy decisions, and improve educational outcomes <a href="#References">[1]</a></b>.
@@ -36,7 +35,7 @@ Specific user groups include:
 
 
 ## Project Documentation
-----------
+
 ### Data Documents
 Two documents are useful to understand the data used:
 - **data_dictionary.xlsx**: per-column notes
@@ -53,7 +52,7 @@ Jupyter notebooks are used to run project code. Some documentation conventions:
 
 
 ## Data Sources and Methodology
-----------
+
 - **National Examinations Council of Tanzania (NECTA):** This council adminsters and publshes PSLE (and other exams) data on their [PSLE Results](https://necta.go.tz/psle_results) portal. Going down the administrative divisions, the individual school pagse are found, for example here for [Jitegemee Primary School](https://onlinesys.necta.go.tz/results/2022/psle/results/shl_ps1104063.htm) in Morogoro Municipality, Morogoro Region. We webscraped all of these pages, resulting in a DataFrame of **17,900 schools** (public and private) with non-missing results data. The "WASTANI WA SHULE" number is the average of all students for that school out of a total of 300, 50 each for the six tested subjects of Kiswahili, English, Social Studies, Mathematics, Science, and Civics.
     - **Notebook:** <01-webscrape-necta.ipynb>
     - **Results data**:
@@ -83,17 +82,17 @@ Jupyter notebooks are used to run project code. Some documentation conventions:
 
 
 ## Next Steps
-----------
+
 1. Additional dashboard features and tabs
 2. Integrate time-series data from 2013-21
 
 
 ## Engagement
-----------
+
 We at Data Safari are always interested to engage with interested people to improve our products, collaborate on projects, or collectively build capacities to create data-driven solutions. Please reach out us at hello@datasafari.io or fill in the contact form on our dashboard (to-be-added).
 
 ## References
-----------
+
 1. [Rossiter, J. (2020). Link It, Open It, Use It: Changing How Education Data Are Used to Generate Ideas, CGD Notes.](https://www.cgdev.org/publication/link-it-open-it-use-it-changing-how-education-data-are-used-generate-ideas)
 2. [HakiElimu. (2019). Exploration of factors that hinder and facilitate best performance in Primary School Leaving Examinations Tanzania: Lessons from poor and best performing regions.](https://hakielimu.or.tz/download/exploration-of-factors-that-hinder-and-facilitate-best-performance-in-primary-school-leaving-examinations-tanzania/)
 
