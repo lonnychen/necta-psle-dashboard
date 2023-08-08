@@ -1,0 +1,142 @@
+#manual_fixes.py
+
+#Libraries
+import numpy as np
+
+#TAMISEMI ts1: 'NECTA EXAM CENTRE NO fix'
+ts1_necta_id_fixes = {
+       'EM.17902': np.nan,
+       'EM.14315': 'PS0102140',
+       'EM.18505': np.nan,
+       'EM.17910': 'PS1907104',
+       'EM.18199': np.nan,
+       'EM.18704': np.nan,
+       'EM.18358': 'PS0404153',
+       'EM.18444': 'PS0501092',
+       'EM.18582': np.nan,
+       'EM.18668': np.nan,
+       'EM.17227': 'PS1606104',
+       'EM.19217': np.nan,
+       'EM.17954': np.nan,
+       'EM.18608': 'PS1904210',
+       'EM.18797': 'PS2706118',
+       'EM.19111': np.nan,
+       'EM.17565': 'PS1101178',
+       'EM.768': 'PS1101004',
+       'EM.8309': 'PS1101005'
+}
+
+#TAMISEMIt ts1: 'SCHOOL NAME fix'
+ts1_school_fixes = {
+    'EM.15940': 'BATIVALLEY',
+    'EM.17561': "BIN' OMUKAMA",
+    'EM.17796': 'BOANERGES',
+    'EM.7632': 'BUYUNI-II',
+    'EM.17538': 'CACEJES',
+    'EM.18341': 'DR ELIMU',
+    'EM.14991': 'ERMELINDA',
+    'EM.11593': 'GREENHILL',
+    'EM.15418': 'HOLY FAMILY',
+    'EM.11594': 'IMANI ACADEMY CENTRE',
+    'EM.15945': 'LEDACTOM',
+    'EM.17288': 'MAJORITY',
+    'EM.14589': 'MARILYNN',
+    'EM.12410': 'MISSIONKITUNDA',
+    'EM.16705': 'MOSHI FOUNTAIN',
+    'EM.17022': 'MTUKI HIGHLAND',
+    'EM.16706': 'MZINGA B',
+    'EM.11613': 'NEWVIBE',
+    'EM.17547': 'NYANTIRA MENNONITE',
+    'EM.9585': 'NZASA',
+    'EM.2110': 'PUGU-KAJIUNGENI',
+    'EM.10911': 'PUGU-STATION',
+    'EM.17291': 'REAL HOPE VISION',
+    'EM.15952': 'ROSALIA',
+    'EM.17591': 'ST.ANTHONY OF PADUA',
+    'EM.18792': "ST.COLUMBA'S PARISH",
+    'EM.15951': 'ST.JAMES',
+    'EM.19144': 'TICHTECK',
+    'EM.12412': 'TUMAININKEREZANGE',
+    'EM.17029': 'YANGE YANGE',
+    'EM.18110': 'ATHALIA',
+    'EM.11661': 'MUUNGANO',
+    'EM.18405': 'EPIPHANY -DODOMA',
+    'EM.18118': 'FEZA-DODOMA',
+    'EM.17575': 'MT. FELIX',
+    'EM.18445': "KUMSALI 'A'",
+    'EM.17974': 'KAGASHA ISLAMIC',
+    'EM.17944': 'HOLY CROSS',
+    'EM.17417': 'KASHASHA',
+    'EM.17384': 'TUMSIIME',
+    'EM.18059': 'KALINONE',
+    'EM.17310': 'RAFIKI',
+    'EM.17091': 'HENRY WINKELMOLEN',
+    'EM.11898': 'FARAJA',
+    'EM.17094': 'NANJIRINJI A',
+    'EM.18876': 'MNAZIMMOJA B',
+    'EM.15062': 'NG`AWA',
+    'EM.17740': 'NGERENGERE',
+    'EM.17682': 'ST PAUL',
+    'EM.18799': 'CBMIKU',
+    'EM.17400': 'PRECIOUS KING',
+    'EM.17321': "KIVUKONI 'B'",
+    'EM.18049': 'THE BRIDGE',
+    'EM.17648': 'ALADIS',
+    'EM.18764': 'HILL FRONT',
+    'EM.17970': 'SHEKINAH',
+    'EM.18443': "MLOGANZILA 'B'",
+    'EM.18991': 'KINENE',
+    'EM.17222': 'LUTHER',
+    'EM.16932': 'MNYONGA',
+    'EM.17584': 'GOOD SHEPHERD MONTESSORI',
+    'EM.17452': 'MARIAN',
+    'EM.19093': 'KIZUGU',
+    'EM.16542': 'ST JOSEPH OF CLUNY',
+    'EM.14961': 'AMANI',
+    'EM.11553': 'AN-NOOR',
+    'EM.17358': 'BRIGHT',
+    'EM.17387': 'MARWAH ISLAMIC',
+    'EM.17471': 'MUZDALFA MWAKIDILA',
+    'EM.16989': 'MWAMBANI EBENEZER',
+    'EM.15915': 'PRINCE AND PRINCESS',
+    'EM.14052': 'AN-NUR MUSLIM',
+    'EM.15308': 'NYOWSECHAND',
+    'EM.17559': 'ST. AUGUSTINO',
+    'EM.18501': 'BRIGHTMOON',
+    'EM.18113': 'ST. JOAKIM',
+    'EM.18796': 'DUMANANG',
+    #Newest
+    'EM.18165': 'WIRI',
+    'EM.19089': 'TARU MLIMANI',
+    'EM.17245': 'NDUGUTI',
+    'EM.15618': 'UJIRANIMWEMA'
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
