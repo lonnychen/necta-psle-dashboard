@@ -18,7 +18,7 @@ This repository contains the notebooks and data used by the Data Safari team to 
 ## Summary
 
 ### Inspiration
-Every year in Tanzania, the publication of Primary School Leaving Examination (PSLE) results is a national data moment for students, parents, teachers, schools, and the government, traditionally determining placement of standard seven leavers into secondary school. Student results are found on per-school web pages but **open access** to wider analysis such as urban vs. rural or regional comparisons, beyond the now de-prioritized rankings, is still needed. Further **linking results to resources data**, and geographical features provides an untapped opportunity to **make data useable** to inform policy decisions, and improve educational outcomes <a href="#References">[1]</a></b>.
+Every year in Tanzania, the publication of Primary School Leaving Examination (PSLE) results is a national data moment for students, parents, teachers, schools, and the government, traditionally determining placement of standard seven leavers into secondary school. Student results are found on per-school web pages but **open access** to wider analysis such as urban vs. rural or regional comparisons, beyond the now de-prioritized rankings, is still needed. Further **linking results to resources data**, and geographical features provides an untapped opportunity to **make data useable** to inform policy decisions, and improve educational outcomes <a href="#references">[1]</a></b>.
 
 ### Dashboard
 Our solution is a publicly accessible data dashboard that is intuitive and attractive to the general public, and flexible and powerful enough to enable deep technical analysis. By providing a platform for anyone to discover data-driven insights, we hope to contribute to systematic data-driven improvements in the education sector in Tanzania, and collaborate with and inspire others to do the same globally. Dashboard features include:
@@ -66,7 +66,7 @@ Jupyter notebooks are used to run project code. Some documentation conventions:
         2. Textbooks: Pupil-to-Book Ratio (PBR) > also Book-to-Pupil Ratio (BPR)
         3. Capitation Grant (CG) > per-student
         4. Enrollment (age and sex) > ages mean<br><br>
-- **Feature Extraction:** Geographical and demographical variables were extracted based school coordinates (government-only) as potential factors in performance <a href="#References">[2]</a></b>.
+- **Feature Extraction:** Geographical and demographical variables were extracted based school coordinates (government-only) as potential factors in performance <a href="#references">[2]</a></b>.
     - **Notebook:** <03-feature-extraction.ipynb>
     - **Extracted data**:
         - Population density: [Meta Data for Good source](https://dataforgood.facebook.com/dfg/tools/high-resolution-population-density-maps), [mWater data query](https://portal.mwater.co/#/resource_center/population_queries)
