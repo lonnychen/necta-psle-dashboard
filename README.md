@@ -3,7 +3,7 @@
 |
 <b><a href="#project-documentation">Project Documentation</a></b>
 |
-<b><a href="#data-Sources-and-methodology">Data Sources and Methodology</a></b>
+<b><a href="#data-sources-and-methodology">Data Sources and Methodology</a></b>
 |
 <b><a href="#next-steps">Next Steps</a></b>
 |
@@ -95,8 +95,3 @@ We at Data Safari are always interested to engage with interested people to impr
 
 1. [Rossiter, J. (2020). Link It, Open It, Use It: Changing How Education Data Are Used to Generate Ideas, CGD Notes.](https://www.cgdev.org/publication/link-it-open-it-use-it-changing-how-education-data-are-used-generate-ideas)
 2. [HakiElimu. (2019). Exploration of factors that hinder and facilitate best performance in Primary School Leaving Examinations Tanzania: Lessons from poor and best performing regions.](https://hakielimu.or.tz/download/exploration-of-factors-that-hinder-and-facilitate-best-performance-in-primary-school-leaving-examinations-tanzania/)
-
-
-```python
-
-```
