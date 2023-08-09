@@ -77,13 +77,13 @@ def school_scrape(URL: str, is_retries: bool=False):
     return page
 
 def council_scrape(URL: str, region_name, council_name):
-    '''Webscrapes council web page for list of school web pages to scrape
+    '''Webscrapes council web page for list of school web pages, and calls school_scrape on each
     Parameters:
         URL (str): council web page to scrape
         region_name (str): passed from nation scrape
         council_name (str): passed from region scrape
     Returns:
-        List of school page data (list of dicts)
+        List of school page data for entire council (list of dicts)
     '''
     response = requests.get(URL)
     soup = BeautifulSoup(response.content, "html.parser")
@@ -103,12 +103,12 @@ def council_scrape(URL: str, region_name, council_name):
     return data
 
 def region_scrape(URL: str, region_name):
-    '''Webscrapes region web page for list of council web pages to scrape
+    '''Webscrapes regional web page for list of council web pages, and calls council_scrape on each
     Parameters:
-        URL (str): region web page to scrape
+        URL (str): regional web page to scrape
         region_name (str): passed from nation scrape
     Returns:
-        List of school page data (list of dicts)
+        List of school page data for entire region (list of dicts)
     '''
     response = requests.get(URL)
     soup = BeautifulSoup(response.content, "html.parser")
@@ -125,12 +125,11 @@ def region_scrape(URL: str, region_name):
     return data
 
 def nation_scrape(URL: str):
-    '''Webscrapes region web page for list of council web pages to scrape
+    '''Webscrapes national web page for list of regional web pages, and calls region_scrape on each
     Parameters:
-        URL (str): region web page to scrape
-        region_name (str): passed from nation scrape
+        URL (str): national web page to scrape
     Returns:
-        List of school page data (list of dicts)
+        List of school page data for entire nation (list of dicts)
     '''
     response = requests.get(URL)
     soup = BeautifulSoup(response.content, "html.parser")
