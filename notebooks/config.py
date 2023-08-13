@@ -1,7 +1,9 @@
 #config.py
 
-#FROM 01-necta-webscrape.ipynb
-##############################
+#############################
+#FOR 01-necta-webscrape.ipynb
+#############################
+
 #Config paths - URLs
 exam_year = '2022'
 exam_type = 'psle'
@@ -13,8 +15,10 @@ necta_raw_csv_path = '../data/raw/necta/01-necta-webscrape_raw.csv'
 necta_missing_csv_path = '../data/raw/necta/01-necta-webscrape_missing.csv'
 necta_features_csv_path = '../data/intermediate/01/01-necta-webscrape_features.csv'
 
-#FROM 02-tamisemi-merge.ipynb
-##############################
+############################
+#FOR 02-tamisemi-merge.ipynb
+############################
+
 #TAMISEMI 1
 #Paths
 ts1_url = 'https://www.tamisemi.go.tz/storage/app/epr42022/Consolidated_Primary_EnrolmentbyGrade_PTR_2022_PSLE2021.xlsx'
@@ -61,8 +65,9 @@ ts4_url = 'https://www.tamisemi.go.tz/storage/app/epr42022/Enrollment%20in%20Gov
 ts4_xlsx = '../data/raw/tamisemi/Enrollment in Government and Non_Government Primary Schools by Age and Sex_2022.xlsx'
 necta_ts_merged_path = '../data/intermediate/02/02-tamisemi-merge.csv'
 
-#FROM 03-feature-extraction.ipynb
-##############################
+#################################
+#FOR 03-feature-extraction.ipynb
+#################################
 
 #Feature Extraction 1 (fe1)
 fe1_mwater_path = '../data/manual/03-mwater_latlon_fixes_population.csv' 
