@@ -88,4 +88,8 @@ fe3_mwater_path = '../data/manual/03-mwater_council_hq_coords.csv'
 fe3_csv_path = '../data/intermediate/03/03-feature-extraction_fe3.csv'
 
 #Feature Extraction 4 (fe4)
+#Prepare qcut labels
+labels_2tile = ['lower', 'upper']
+labels_5tile = ['lowest','second', 'middle', 'fourth', 'highest']
+
 fe_csv_path = '../data/deployable/03-feature-extraction.csv'
