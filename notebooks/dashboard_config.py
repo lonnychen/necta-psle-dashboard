@@ -44,9 +44,9 @@ hover_data.append({'LATITUDE fix': False, 'LONGITUDE fix': False, 'average_300':
 custom_data.append(['school_name', 'school_id', #title [0:2]
                     'WARD', 'council_name', 'region_name', #location[2:5]
                     'SCHOOL OWNERSHIP', 'TOTAL STUDENTS', #info [5:7]
-                    'results_url', 'num_sitters', 'average_300', 'grade', 'pct_passed', #PSLE results [7:12]
-                    'PTR', 'PBR_std7', 'BPR_std7', 'CG_per_student', 'approx_ages_mean', #TAMISEMI [12:17]
-                    'LATITUDE fix', 'LONGITUDE fix', 'pop_3km', 'd_closest', 'd_council_hq']) #demographic/geographic [17:22]
+                    'results_url', 'num_sitters', 'num_passed', 'average_300', 'grade', 'pct_passed', #PSLE results [7:13]
+                    'PTR', 'PBR_std7', 'BPR_std7', 'CG_per_student', 'approx_ages_mean', #TAMISEMI [13:18]
+                    'LATITUDE fix', 'LONGITUDE fix', 'pop_3km', 'd_closest', 'd_council_hq']) #demographic/geographic [18:23]
 
 #REGIONS TAB [1]
 #Plotting/table data inputs
