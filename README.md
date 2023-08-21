@@ -15,10 +15,6 @@
 # NECTA PSLE Dashboard
 This repository contains the notebooks and data used by the Data Safari team to create the dashboard publicly accessible at https://bit.ly/psle2022mvp.
 
-## New Features coming soon!
-- Add school search button
-- Add regions zoom-in
-
 ## Summary
 
 ### Inspiration
@@ -37,7 +33,6 @@ Specific user groups include:
 - **Education sector funders and NGOs:** target funding gaps
 - **Researchers:** expedite their own analysis needs
 
-
 ## Project Documentation
 
 ### Data Documents
@@ -53,7 +48,6 @@ Jupyter notebooks are used to run project code. Some documentation conventions:
 - 📚 Machine Learning
 - 😎 Cool concepts
 - ⚠️ Gotchas!
-
 
 ## Data Sources and Methodology
 
@@ -84,12 +78,10 @@ Jupyter notebooks are used to run project code. Some documentation conventions:
         - Equalize mismatching school names > correct before 2nd pass merging
         - Correct latitude/longitude coordinates > correct before feature extraction
 
-
 ## Next Steps
 
 1. Additional dashboard features and tabs
 2. Integrate time-series data from 2013-21
-
 
 ## Engagement
 
@@ -99,8 +91,3 @@ We at Data Safari are always interested to engage with interested people to impr
 
 1. [Rossiter, J. (2020). Link It, Open It, Use It: Changing How Education Data Are Used to Generate Ideas, CGD Notes.](https://www.cgdev.org/publication/link-it-open-it-use-it-changing-how-education-data-are-used-generate-ideas)
 2. [HakiElimu. (2019). Exploration of factors that hinder and facilitate best performance in Primary School Leaving Examinations Tanzania: Lessons from poor and best performing regions.](https://hakielimu.or.tz/download/exploration-of-factors-that-hinder-and-facilitate-best-performance-in-primary-school-leaving-examinations-tanzania/)
-
-
-```python
-
-```
