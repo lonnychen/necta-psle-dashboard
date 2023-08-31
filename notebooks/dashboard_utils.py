@@ -29,3 +29,9 @@ def convert_council_name(council_name):
             return f'{m[1]} City'
     else:
         return f'{council_name} District'
+
+def round_floats(df, cols, decimals=0):
+    '''Rounds a list of columns to specified decimal places'''
+    for col in cols:
+        df[col] = df[col].round(decimals)
+    return df
