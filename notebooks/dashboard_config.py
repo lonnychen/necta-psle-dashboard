@@ -16,39 +16,10 @@ region_map_zoom = 8
 #URLs
 tamisemi_url = 'https://www.tamisemi.go.tz/singleministers/basic-education-data-2022'
 
-#Column lists > labels
-color_options = {'num_sitters': 'Number of exam takers',
-                 'num_passed': 'Number of passing students',
-                 'pct_passed': 'Percent passed (A-C) (%)',
-                 'average_300': 'Average score (out of 300)',
-                 'grade': 'Average grade', #category_orders
-                 'average_5tile': 'National quintile', #category_orders
-                 'average_5tile_filtered': 'Filtered quintile', #category_orders
-                 'PTR': 'Pupil-to-Teacher Ratio (PTR)',
-                 'PBR_std7': 'Pupil-to-Book Ratio (PBR) Standard 7',
-                 'BPR_std7': 'Book-to-Pupil Ratio (BPR) Standard 7',
-                 'CG_per_student': 'Capitation Grant (CG) per student (TZS)',
-                 'approx_ages_mean': 'Ages mean (approx.)',
-                 'pop_3km': 'Population within 3km radius',
-                 'd_closest': 'Distance to closest school (km)',
-                 'd_council_hq': 'Distance to council HQ (km)'}
-
-color_options_short = {'num_sitters': 'Number of exam takers',
-                 'num_passed': 'Number passing',
-                 'pct_passed': 'Percent passed (A-C) (%)',
-                 'average_300': 'Average score (out of 300)',
-                 'grade': 'Average grade', #category_orders
-                 'average_5tile': 'National quintile', #category_orders
-                 'average_5tile_filtered': 'Filtered quintile', #category_orders
-                 'PTR': 'Pupil-to-Teacher Ratio',
-                 'PBR_std7': 'Pupil-to-Book Ratio Std7',
-                 'BPR_std7': 'Book-to-Pupil Ratio Std7',
-                 'CG_per_student': 'CG per student (TZS)',
-                 'approx_ages_mean': 'Ages mean (approx.)',
-                 'pop_3km': 'Pop. 3km radius',
-                 'd_closest': 'd to closest school (km)',
-                 'd_council_hq': 'd to council HQ (km)',
-                 'num_schools': 'Number of schools'} #Region data only
+#Columns > labels
+#color_options* #Moved to data_dictionary_dashboard.csv
+context_options = {'urban': ' Urban',
+                   'rural': ' Rural'}
 
 #Categorical data
 category_orders = {'average_5tile': ['highest', 'fourth', 'middle', 'second', 'lowest'],

@@ -35,3 +35,12 @@ def round_floats(df, cols, decimals=0):
     for col in cols:
         df[col] = df[col].round(decimals)
     return df
+
+def create_markdown_string(s_dictionary):
+    markdown = f'''
+    #### {s_dictionary.header}
+    {s_dictionary.defintion}
+    * **Unit:** {s_dictionary.unit}
+    * **Source:** {s_dictionary.source} ({s_dictionary.period})
+    '''
+    return markdown
