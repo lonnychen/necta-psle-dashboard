@@ -37,6 +37,7 @@ def round_floats(df, cols, decimals=0):
     return df
 
 def create_markdown_string(s_dictionary):
+    '''Creates a markdown string with a standard format using specific data dictionary columns'''
     markdown = f'''
     #### {s_dictionary.header}
     {s_dictionary.defintion}
